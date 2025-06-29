@@ -1,2 +1,10 @@
 fastapi==0.111.0
 uvicorn==0.29.0
+google-generativeai 
+langchain 
+langchain-google-genai 
+chromadb 
+streamlit
+python-dotenv  
+requests 
+python-multipart
