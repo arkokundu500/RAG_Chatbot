@@ -24,5 +24,5 @@ Username: `ceo`, Password: `ceo123`
 
 Username: `employee`, Password: `emp123`
 
-#NOTE
+# NOTE
 1.Python version used in 3.10.14
