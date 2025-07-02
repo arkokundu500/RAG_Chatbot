@@ -3,6 +3,14 @@ from fastapi.security import HTTPBasicCredentials
 from app.auth import security, authenticate_user
 from app.rag import RAGSystem
 from pydantic import BaseModel
+import os
+from ingest import ingest_data
+
+# Run ingestion on startup if not already done
+if not os.path.exists("chroma_db"):
+    print("Building vector database...")
+    ingest_data()
+    print("Vector database built!")
 
 app = FastAPI()
 rag_system = RAGSystem()
