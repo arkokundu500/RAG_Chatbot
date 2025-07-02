@@ -6,7 +6,11 @@ https://github.com/user-attachments/assets/7ca5dec2-a75f-4f31-9358-e6234759a637
 
 ## How to start the project?
 
-1st terminal -> `uvicorn app.main:app --reload --port 8000`
+1st terminal ->
+<br>
+`python ingest.py`
+<br>
+`uvicorn app.main:app --reload --port 8000`
 <br>
 2nd terminal -> `streamlit run ui/app.py`
 
